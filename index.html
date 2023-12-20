@@ -8,22 +8,32 @@
         input:focus{
             background-color: blue;
         }
+        :target{
+            border: 2px solid green;
+            background-color: yellow;
+        }
+
+        
     </style>
 </head>
 <body>
 
-    <!-- <table style="border: 1px solid black; width: 20%;">  
-    <tr><th>ID</th><th>Name</th></tr>
-    <tr><td>001</td><td>Praewpan</td></tr>
-    <tr><td>002</td><td>Choopan</td></tr>
-    <tr><td>003</td><td>Damrongkiat</td></tr>
-    </table> -->
+  
     <from>
         phone:
         <input type="tel">
         <br>
         e-mail:
             <input type="email"disablrd ="disabled">
+    </from>
+    <from>
+        <br><br><br>
+        <a href="#new1">Content 1</a><br>
+        <a href="#new2">Content 2</a>
+
+        <p id="new1">Content 1</p>
+        <p id="new2">Content 2</p>
+
     </from>
 </body>
 </html>
